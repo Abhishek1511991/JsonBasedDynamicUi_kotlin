@@ -1,0 +1,163 @@
+{
+    "count":"3",
+    "step1":{
+        "fields":[
+            {
+                "key":"name",
+                "type":"map",
+                "hint":"Enter Your Name",
+                "input_type":"number/text/alplanumeric",
+                "v_min_length":{  "value" : "3",
+                    "err" : "Min length should be at least 3"
+                },
+                "v_max_length":{  "value" : "10",
+                    "err" : "Max length can be at most 10."
+                }
+            },
+            {
+                "key":"name",
+                "type":"edit_text",
+                "hint":"Enter Your Name",
+                "input_type":"number/text/alplanumeric",
+                "v_min_length":{  "value" : "3",
+                    "err" : "Min length should be at least 3"
+                },
+                "v_max_length":{  "value" : "10",
+                    "err" : "Max length can be at most 10."
+                }
+            },
+            {
+                "key":"labelBackgroundImage",
+                "type":"label",
+                "text_color": "",
+                "text_size": "0",
+                "bold": "true/false",
+                "text_coloe": "",
+                "background_color": "",
+                "text":"Choose Background Image"
+            },
+            {
+                "key":"chooseImage",
+                "type":"choose_image",
+                "uploadButtonText":"Choose",
+                "v_required":{  "value" : "true",
+                    "err" : "Please choose an image to proceed."
+                }
+            },
+            {
+                "key":"Redirection",
+                "type":"Button",
+                "enable":"true/false",
+                "text": "Name of the button",
+                "imageReuired": "true/false",
+                "postionOfImageIfRequired": "Left/Right/center",
+                "subData": {
+                    "fields": [{
+
+                    }]
+                }
+
+            },
+            {
+                "key": "ManageViewDesign",
+                "type": "ViewContainer",
+                "subViewOrganize": "Horizontal/Vertical",
+                "noOfComponent": "1/2/...",
+                "coveredScreen": "FullHorizontal/FullVertical/OnlyMedium",
+                "scrollable": "true/false",
+                "postionOfImageIfRequired": "LeftToRight/RightToLeft/center",
+                "components": [
+                    {
+                        "key": "Redirection",
+                        "type": "Button",
+                        "enable": "true/false",
+                        "text": "Button1",
+                        "imageReuired": "true/false",
+                        "postionOfImageIfRequired": "Left/Right/center"
+                    },
+                    {
+                        "key": "Redirection",
+                        "type": "Button",
+                        "enable": "true/false",
+                        "text": "Button2",
+                        "imageReuired": "true/false",
+                        "postionOfImageIfRequired": "Left/Right/center",
+                        "attachedJsonSubdata": [
+                            {
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key":"house",
+                "type":"spinner",
+                "hint": "-Select House-",
+                "values":["Stark", "Targeriyan", "Lannister"],
+                "v_required":{  "value" : "true",
+                    "err" : "Please choose a value to proceed."
+                }
+            }
+        ],
+        "title":"Step 1 of 3",
+        "next":"step2"
+    },
+    "step2":{
+        "fields":[
+            {
+                "key":"name",
+                "type":"edit_text",
+                "hint":"Enter Country"
+            },
+            {
+                "key":"checkData",
+                "type":"check_box",
+                "label":"Select multiple preferences",
+                "options":[
+                    {
+                        "key":"awesomeness",
+                        "text":"Are you willing for some awesomeness?",
+                        "value":"false"
+                    },
+                    {
+                        "key":"newsletter",
+                        "text":"Do you really want to opt out from my newsletter?",
+                        "value":"false"
+                    }
+                ]
+            },
+            {
+                "key":"radioData",
+                "type":"radio",
+                "label":"Select one item from below",
+                "options":[
+                    {
+                        "key":"areYouPro",
+                        "text":"Are you pro?"
+                    },
+                    {
+                        "key":"areYouAmature",
+                        "text":"Are you amature?"
+                    },
+                    {
+                        "key":"areYouNovice",
+                        "text":"Are you novice?"
+                    }
+                ],
+                "value":"areYouNovice"
+            }
+        ],
+        "title":"Step 2 of 3",
+        "next":"step3"
+    },
+    "step3":{
+        "fields":[
+            {
+                "key":"anything",
+                "type":"edit_text",
+                "hint":"Enter Anything You Want"
+            }
+        ],
+        "title":"Step 3 of 3"
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_right_margin">10dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="default_text_size">16sp</dimen>
+    <dimen name="default_text_top_bottom_padding">8sp</dimen>
+    <dimen name="default_bottom_margin">8dp</dimen>
+    <dimen name="extra_bottom_margin">16dp</dimen>
+    <dimen name="dynamic_form_edit_textsize">15sp</dimen>
+</resources>

@@ -1,0 +1,39 @@
+{
+    "count":"1",
+    "step1":{
+        "fields":[
+            {
+                "key":"GPS",
+                "type":"map",
+                "sub_type": "parking/charging",
+                "logo": "based on subtype",
+                "co_ordinate": [
+                    {
+                        "key":"location",
+                        "type":"latlng",
+                        "lat": "",
+                        "long": "",
+                        "name":"",
+                        "city": "",
+                        "no_of_availability": 1,
+                        "total_station":10,
+                        "availabilty": "true/false",
+                        "address": ""
+                    },
+                    {
+                        "key":"location",
+                        "type":"latlng",
+                        "lat": "",
+                        "long": "",
+                        "name":"",
+                        "city": "",
+                        "no_of_availability": 1,
+                        "total_station":10,
+                        "availabilty": "true/false",
+                        "address": ""
+                    }
+                ]
+            }
+        ]
+    }
+}

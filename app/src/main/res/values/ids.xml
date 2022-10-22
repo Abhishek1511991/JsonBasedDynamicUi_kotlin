@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="key"/>
+    <item type="id" name="pkey"/>
+    <item type="id" name="type"/>
+    <item type="id" name="mediaId"/>
+    <item type="id" name="element"/>
+    <item type="id" name="element_sec"/>
+    <item type="id" name="alias"/>
+    <item type="id" name="mdata"/>
+    <item type="id" name="mEdit"/>
+    <item type="id" name="childKey"/>
+    <item type="id" name="imagePath"/>
+    <item type="id" name="radioTag"/>
+
+    <item type="id" name="v_required"/>
+    <item type="id" name="error"/>
+</resources>

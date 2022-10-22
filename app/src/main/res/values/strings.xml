@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KotlinDynamicJsonLib</string>
+    <string name="validate_string">This field is required</string>
+    <string name="addbutton">Add</string>
+    <string name="record_location">Fetch location</string>
+    <string name="no_get_location">no location found</string>
+</resources>
