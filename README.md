@@ -1,15 +1,15 @@
 # JsonBasedDynamicUi_kotlin
 Android Json Wizard is a library for creating beautiful dynamic UI wizards with pure kotlin within your app just by defining json in a particular format.
 
-Demo
+## Demo
 JsonBasedDynamicUi_kotlin_demo
 
 
-Usage
+## Usage
 Json Structure
 Form json should consist of steps and fields.
 
-Steps
+## Steps
 Step directly corresponds to a fragment(or a page) in wizard. It consists of different fields(array of fields), title and next step.
 ```json
 
@@ -82,7 +82,7 @@ text - text for Label.
 
 
 
-Add library for own application
+## Add library for own application
 gradle:
 
 dependencies {
@@ -90,11 +90,11 @@ dependencies {
 }
 
 
-TODOs
+## TODOs
 Support validation for Checkbox and RadioButton.
 Improve recylerview adapter as list
 
-Supported Ui Component
+## Supported Ui Component
 
 EDIT_TEXT = "text"
 
@@ -154,8 +154,8 @@ MULTI_SPINNER = "multi_select"
 
 LIST_VIEW = "list"
 
-Reference by:
+## Reference by:
 https://github.com/vijayrawatsan/android-json-form-wizard/
 
-License
+## License
 This project is licensed under the MIT License. Please refer the License.txt file.
