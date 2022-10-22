@@ -96,33 +96,61 @@ Improve recylerview adapter as list
 Supported Ui Component
 
 EDIT_TEXT = "text"
+
 EMAIL_TEXT = "email"
+
 PASSWORD_TEXT = "password"
+
 NUMBER_TEXT = "numeric"
+
 DATE_TEXT = "date"
+
 CHECK_BOX = "multi_checkboxtext"
+
 RADIO_BUTTON = "multi_radio"
+
 LABEL = "label"
+
 CHOOSE_IMAGE = "choose_image"
+
 OPTIONS_FIELD_NAME = "options"
+
 OPTIONS_FIELD_CHECK = "field"
+
 SPINNER = "spinner"
+
 VIDEO_VIEW = "video_view"
+
 SIGN_VIEW = "signature"
+
 TEXT_AREA = "textarea"
+
 MULTI_CHECKBOX = "checkbox"
+
 MULTI_RADIO = "radio"
+
 BARCODE_VIEW = "barcode"
+
 CUSTOM_IMAGE_VIEW = "image"
+
 CUSTOM_CARD_VIEW = "card"
+
 CUSTOM_BUTTON_VIEW = "button"
+
 CUSTOM_LINEAR_VIEW = "linear"
+
 RECORD_AUDIO_VIEW = "recordAudio"
+
 RECORD_VIDEO_VIEW = "recordVideo"
+
 UPLOAD_AUDIO_VIEW = "uploadAudio"
+
 UPLOAD_VIDEO_VIEW = "uploadVideo"
+
 GPS_VIEW = "gps"
+
 MULTI_SPINNER = "multi_select"
+
 LIST_VIEW = "list"
 
 License
